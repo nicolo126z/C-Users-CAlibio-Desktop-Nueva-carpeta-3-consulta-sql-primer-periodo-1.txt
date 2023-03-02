@@ -1,0 +1,22 @@
+create database GimnasioCalibio;
+
+create table Estudiante(
+nombre varchar (50),
+Pk_codigoE int,
+fecha_nacimiento date
+);
+
+create table profesor(
+nombre varchar (50)
+Pk_codigoP int,
+fecha_nacimiento date 
+ID int,
+);
+
+create table Asignatura(
+nombre varchar (50),
+Pk_codigoA int, 
+horario date,
+);
+
+insert into Estudiante (nombre, Pk_CodigoE, fecha_nacimiento) values ( "juan Nicolas", 12345, 2007/08/11")
